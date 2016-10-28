@@ -1,0 +1,122 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.box{
+	width: auto;
+	height: auto;
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom:0;
+	margin:auto;
+	background:url(../image/966837.jpg);
+}
+.zi{
+	width:500px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 50px;
+	color: #3190F7;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	/*opacity: 0;*/
+	/*display: none;*/
+}
+
+.box .sence{
+	width: 1140px;
+	height: 600px;
+	/*border:1px solid #000; */
+	position: absolute;
+	top:0px;
+	left: 0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	background: url(../image/1087047.jpg) no-repeat center center;
+}
+.box .sence .btn{
+	width: 120px;
+	height: 100%;
+	/*border:1px solid #a50000;*/
+	position: absolute;
+	top:0px;
+	/*left:0px;*/
+	right:0px;
+	bottom:0;
+	/*margin:auto;*/
+}
+.box .sence .btn .reset,.box .sence .btn .end,.box .sence .btn .start,.box .sence .btn .time,.box .sence .btn .score{
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 22px;
+	position: absolute;
+	top:30px;
+	left:0px;
+	right: 0;
+	margin:0px auto;
+	cursor: pointer;
+	background: rgba(100,200,150,0.6);
+	border-radius: 10px;
+	box-shadow: 2px #f06a2e;
+	color:#6705CB;
+}
+.box .sence .btn .reset:active,.box .sence .btn .start:active{
+	background: rgba(252,165,33,0.6);
+}
+.box .sence .btn .end{
+	top:110px;
+}
+.box .sence .btn .reset{
+	top:190px;
+}
+.box .sence .btn .score{
+	top:270px;
+}
+.box .sence .btn .time{
+	top:350px;
+}
+.sence .pai{
+	width: 120px;
+	height: 165px;
+	border:1px solid #111;
+	background-size:100%; 
+	float: left;
+	position: absolute;
+	top:100px;
+	left: 400px;
+	box-shadow:0 0 2px #000;
+	opacity: 0;
+}
+.sence .moveleft,.sence .moveright{
+	width: 100px;
+	height: 40px;
+	background: rgba(255,36,255,0.6);
+	line-height: 40px;
+	font-size: 22px;
+	text-align: center;
+	position: absolute;
+	bottom:50px;
+    left:450px;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 10px;
+    color: #6705CB;
+}
+.sence .moveleft:active,.sence .moveright:active{
+	background: rgba(33,216,252,0.6)
+}
+
+.sence .moveleft{
+    bottom:100px;
+}
